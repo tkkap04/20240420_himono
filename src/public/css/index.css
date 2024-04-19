@@ -1,0 +1,172 @@
+/* タイトル */
+.page-title {
+    font-family: "Noticia Text", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #82715e;
+    font-size: 2.5vw;
+    padding: 0.1vw 0;
+    text-align: center;
+}
+
+/* タイトル */
+.page-title {
+    font-family: "Noticia Text", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #82715e;
+    font-size: 2.5vw;
+    padding: 2.5vw 0;
+    text-align: center;
+    margin: 0;
+}
+
+.input-form{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5vw;
+}
+
+.input-form__table{
+    margin: 0 auto;
+}
+
+.input-form__table-row {
+    height: 5vw;
+}
+
+.input-form__table-head{
+    color: #82715e;
+    font-weight: 700;
+    font-size: 1.4vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    width: 30%;
+    text-align: left;
+}
+
+.input-form__table-head--red{
+    color: red;
+}
+
+.input-form__table__input{
+    height: 3vw;
+    width: 100%;
+    background-color: #f7f7f6;
+    border: solid 1px #d9c6b5;
+    color: #82715e;
+    font-size: 1vw;
+    outline: none;
+}
+
+.input-form__table__input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #f7f7f6 inset;
+}
+
+
+/* お名前 */
+.input-form__table__input--name {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 性別ラジオボタン */
+.input-form__table__input--gender {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-form__table-gender{
+    color: #82715e;
+    font-weight: 700;
+    font-size: 1.5vw;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.input-form__table-gender input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    /* ラジオボタンを非表示にする */
+}
+
+.custom-radio-btn-tag {
+    margin-left: 2vw;
+}
+
+.custom-radio-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: white;
+    border: #82715e 1px solid;
+    border-radius: 50%;
+}
+
+.input-form__table-gender input[type="radio"]:checked+.custom-radio-btn {
+    background-color: #82715e;
+    /* チェックされた時の背景色 */
+}
+
+/* 電話番号 */
+.input-form__table__input--tell{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-form__hyphen{
+    padding: 1vw;
+}
+
+.input-form__table__input--tell1,
+.input-form__table__input--tell2,
+.input-form__table__input--tell3{
+    height: 3vw;
+    width: 100%;
+    background-color: #f7f7f6;
+    border: solid 1px #d9c6b5;
+    color: #82715e;
+    font-size: 1vw;
+    outline: none;
+}
+
+.input-form__table__input--tell1:-webkit-autofill,
+.input-form__table__input--tell2:-webkit-autofill,
+.input-form__table__input--tell3:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #f7f7f6 inset;
+}
+
+.input-form__table-category {
+    height: 3vw;
+    width: 12vw;
+    background-color: #f7f7f6;
+    border: solid 1px #d9c6b5;
+    color: #82715e;
+    font-size: 1vw;
+}
+
+.input-form__error{
+    color: red;
+}
+
+
+
+/* 確認画面ボタン */
+.input-form__button {
+    display: flex;
+    justify-content: center;
+    margin: 3vw auto 1vw auto;
+}
+
+.input-form__button-submit {
+    height: 3vw;
+    width: 9vw;
+    background-color: #82715e;
+    color: #f7f7f6;
+    border: none;
+    cursor: pointer;
+    font-size: 1vw;
+}

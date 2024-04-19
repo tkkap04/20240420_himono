@@ -1,0 +1,293 @@
+.logout__form{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    text-align: center;
+    margin: auto;
+}
+
+.header-inner__action-button-submit {
+    background-color: #f7f7f6;
+    border:solid 1px #d9c6b5;
+    color: #d9c6b5;
+    font-size: 1vw;
+    padding: 0.5vw 2vw;
+    cursor: pointer;
+}
+
+.admin {
+    margin-bottom: 5vw;
+}
+
+/* タイトル */
+.page-title{
+    font-family: "Noticia Text", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #82715e;
+    font-size: 2.5vw;
+    padding: 0.1vw 0;
+    text-align: center;
+}
+
+/* 検索フォーム */
+.admin__search-form {
+    width: 80%;
+    margin: 2vw auto;
+    margin-bottom: 2vw;
+}
+
+.admin__search-form__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.admin__search-form__item-text-input{
+    height: 3vw;
+    width: 24vw;
+    background-color: #f7f7f6;
+    border: solid 1px #d9c6b5;
+    color: #d9c6b5;
+    font-size: 1vw;
+    outline: none;
+}
+
+.admin__search-form__item-text-input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #f7f7f6 inset;
+}
+
+.admin__search-form__item-gender-input {
+    height: 3vw;
+    width: 6vw;
+    background-color: #f7f7f6;
+    border: solid 1px #d9c6b5;
+    color: #82715e;
+    font-size: 1vw;
+    outline: none;
+}
+
+.admin__search-form__item-category-input {
+    height: 3vw;
+    width: 12vw;
+    background-color: #f7f7f6;
+    border: solid 1px #d9c6b5;
+    color: #82715e;
+    font-size: 1vw;
+    outline: none;
+}
+
+.admin__search-form__item-date-input {
+    height: 3vw;
+    width: 9vw;
+    background-color: #f7f7f6;
+    border: solid 1px #d9c6b5;
+    color: #82715e;
+    font-size: 1vw;
+    outline: none;
+}
+
+.admin__search-form__button-submit {
+    height: 3vw;
+    width: 6vw;
+    background-color: #82715e;
+    color: #f7f7f6;
+    border: none;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+.admin__search-form__button-reset {
+    height: 3vw;
+    width: 6vw;
+    background-color: #d9c6b5;
+    color: #f7f7f6;
+    border: none;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+.middle {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* エクスポート */
+.middle__csv .middle__csv-button{
+    margin: 0;
+}
+
+/* ページネーション */
+.middle__pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.middle__pagination-box {
+    text-decoration: none;
+    color: #82715e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: #d9c6b5 1px solid;
+}
+
+.middle__pagination-box--current {
+    text-decoration: none;
+    background-color: #82715e;
+    color: #d9c6b5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #d9c6b5 1px solid;
+}
+
+.middle__pagination-number{
+    width: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+current-page {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+/* 検索結果表示 */
+.admin-list{
+    width: 80%;
+    margin: 2vw auto;
+}
+
+.admin-list__table{
+    width: 100%;
+}
+
+.admin-list__table-header{
+    height: 3vw;
+    background-color: #82715e;
+    color: #f7f7f6;
+    border: none;
+    font-size: 1vw;
+    text-align: center;
+}
+.admin-list__table-header__item-name{
+    width: 15%;
+}
+.admin-list__table-header__item-gender{
+    width: 10%;
+}
+.admin-list__table-header__item-email{
+    width: 25%;
+}
+.admin-list__table-header__item-category{
+    width: 35%;
+}
+.admin-list__table-header__item-detail{
+    width: 15%;
+}
+
+/* 結果 */
+.admin-list__table-row{
+    height: 5vw;
+    border-bottom: #d9c6b5 1px solid;
+    border-left: #d9c6b5 1px solid;
+    border-right: #d9c6b5 1px solid;
+}
+
+.admin-list__table-header__description{
+    color: #82715e;
+    border: none;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.admin-list__table-header__description-button{
+    border: #d9c6b5 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 3vw;
+    cursor: pointer;
+}
+
+
+/* モーダル */
+.modal {
+    display: none;
+    /* 最初は非表示 */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* モーダルの内容*/
+.delete-form{
+    width: 80%;
+    margin: 5vw auto;
+    display: flex;
+    justify-content: center;
+}
+
+.delete-table__row{
+    height: 3vw;
+}
+
+.delete-table__head {
+    color: #82715e;
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    width: 40%;
+    text-align: left;
+}
+
+.delete-table__content{
+    color: #bda38d;
+}
+
+.delete-form__button-content{
+    display: flex;
+    justify-content: center;
+    margin: 3vw auto 1vw auto;
+}
+
+.delete-form__button-submit{
+    height: 3vw;
+    width: 5vw;
+    background-color: #bb3720;
+    color: #f7f7f6;
+    border: none;
+    cursor: pointer;
+    font-size: 1vw;
+}

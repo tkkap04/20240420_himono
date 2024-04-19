@@ -1,0 +1,95 @@
+/* タイトル */
+.page-title {
+    font-family: "Noticia Text", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #82715e;
+    font-size: 2.5vw;
+    padding: 2vw 0;
+    text-align: center;
+    margin: 0;
+}
+
+/* テーブル */
+.confirm-form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.confirm-table{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.confirm-table__row{
+    border: #d9c6b5 1px solid;
+    height: 3.5vw;
+}
+
+.confirm-table__row-detail {
+    border: #d9c6b5 1px solid;
+    height: 7vw;
+}
+
+.confirm-table__head{
+    width: 30%;
+    background-color: #bba999;
+    color: #f3f0ed;
+    font-size: 1vw;
+    text-align: left;
+    padding-left: 2vw;
+}
+
+.confirm-table__content{
+    width: 70%;
+    color: #bba999
+}
+
+.confirm-table__input{
+    outline: none;
+    border: none;
+    text-align: left;
+    padding-left: 2vw;
+}
+
+/* ボタンの位置 */
+.confirm-form__button-content{
+    display: flex;
+    justify-content: center;
+}
+
+.confirm-form__button-submit-box {
+    margin: 2vw;
+}
+
+.confirm-form__button-return-box {
+    margin: 2vw;
+}
+
+/* 送信ボタン */
+.confirm-form__button-submit {
+    height: 3vw;
+    width: 9vw;
+    background-color: #82715e;
+    color: #f7f7f6;
+    border: none;
+    cursor: pointer;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+/* 修正ボタン */
+.confirm-form__button-return {
+    display: block;
+    height: 3vw;
+    width: 9vw;
+    color: #82715e;
+    border: none;
+    cursor: pointer;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
